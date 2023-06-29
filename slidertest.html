@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+  <title>Slider Test</title>
+</head>
+<body>
+ <link rel='stylesheet' href = "./css/intomet.css">
+
+Simple d3 based js slider
+
+<div class="slidecontainer">
+  <p>Value in inches:</p>
+  <input class="slider" id="sldr" type="range" min="0" max="150" value="100" step="0.1" width="80%">
+  <span id="invaltarget">100</span>
+</div> 
+<div class="reporterDiv">
+  <p>
+    The value in meters is <span id="outputspan">2.54</span>
+  </p>
+</div>
+
+
+
+
+<script src = "./js/d3.v7.min.js"></script>
+<script src = "./js/intomet.js"></script>
+</body>
+</html>
